@@ -4,6 +4,7 @@ import { CryptoState } from "../CryptoContext";
 import { HistoricalChart } from "../config/api";
 import { CircularProgress } from "@material-ui/core";
 import "./CoinInfo.css";
+// eslint-disable-next-line no-unused-vars
 import { Chart as ChartJS } from "chart.js/auto";
 import { Line } from "react-chartjs-2";
 import { chartDays } from "../config/data";
@@ -21,6 +22,7 @@ const CoinInfo = ({ coin }) => {
 
   useEffect(() => {
     fetchHistoricData();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currency, days]);
   return (
     <div className="container">
