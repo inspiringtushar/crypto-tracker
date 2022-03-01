@@ -1,0 +1,8 @@
+.tablerow {
+  background-color: #16171a;
+  cursor: pointer;
+  font-family: "montserrat";
+}
+.tablerow:hover {
+  background-color: #131111;
+}
